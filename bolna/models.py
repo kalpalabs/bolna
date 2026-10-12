@@ -252,7 +252,7 @@ class MayaConfig(BaseModel):
 
 
 class KalpaConfig(BaseModel):
-    voice: str = "Kiara"
+    voice: str = "Arjun"
     voice_id: Optional[str] = None
     model: str = "kalpa-tts-1"
     temperature: Optional[float] = None
